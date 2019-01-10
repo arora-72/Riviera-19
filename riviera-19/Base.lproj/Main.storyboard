@@ -97,6 +97,115 @@
             </objects>
             <point key="canvasLocation" x="5586.3999999999996" y="495.20239880059972"/>
         </scene>
+        <!--Event Description View Controller-->
+        <scene sceneID="wc9-i2-EuP">
+            <objects>
+                <viewController id="opW-PT-aLq" customClass="EventDescriptionViewController" customModule="riviera_19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1xN-ZE-m8j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helloWorldImage" translatesAutoresizingMaskIntoConstraints="NO" id="7aM-QC-Iph">
+                                <rect key="frame" x="0.0" y="20" width="375" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World 2.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfW-dO-gNd">
+                                <rect key="frame" x="32" y="244" width="337.5" height="34.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ppQ-zR-EeU">
+                                <rect key="frame" x="32" y="286" width="337.5" height="49.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11am-5pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAs-ap-DeX">
+                                        <rect key="frame" x="0.0" y="0.0" width="337.5" height="16.5"/>
+                                        <color key="tintColor" red="0.80060166120529175" green="0.35725927352905273" blue="0.44712746143341064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                        <color key="textColor" red="0.95686274509803915" green="0.40784313725490196" blue="0.51764705882352935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kamraj Auditorium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTP-Cr-xSk">
+                                        <rect key="frame" x="0.0" y="16.5" width="337.5" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                        <color key="textColor" red="0.95686274509803915" green="0.40784313725490196" blue="0.51764705882352935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8290642601 - Indresh Arora" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTR-yw-eaM">
+                                        <rect key="frame" x="0.0" y="33" width="337.5" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                        <color key="textColor" red="0.95686274509803915" green="0.40784313725490196" blue="0.51764705882352935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aTP-Cr-xSk" firstAttribute="width" secondItem="ppQ-zR-EeU" secondAttribute="width" id="4gI-2e-EiP"/>
+                                    <constraint firstItem="eTR-yw-eaM" firstAttribute="width" secondItem="ppQ-zR-EeU" secondAttribute="width" id="aoX-qr-6ox"/>
+                                    <constraint firstItem="YAs-ap-DeX" firstAttribute="width" secondItem="ppQ-zR-EeU" secondAttribute="width" id="r5x-vd-Xx5"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1fK-jD-OBb">
+                                <rect key="frame" x="28" y="343" width="319" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ymx-RV-7dk"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Qm-la-P15">
+                                <rect key="frame" x="28" y="367" width="319" height="203"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upE-2X-Zud">
+                                <rect key="frame" x="28" y="586" width="319" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="yOM-XD-3Ni"/>
+                                </constraints>
+                                <state key="normal" image="register_now_btn"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12852445239999999" green="0.1355449557" blue="0.1957864165" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1fK-jD-OBb" firstAttribute="centerX" secondItem="BY3-wG-pxZ" secondAttribute="centerX" id="6QI-dE-0jF"/>
+                            <constraint firstItem="7aM-QC-Iph" firstAttribute="top" secondItem="BY3-wG-pxZ" secondAttribute="top" id="72u-MV-Kxg"/>
+                            <constraint firstItem="ppQ-zR-EeU" firstAttribute="top" secondItem="cfW-dO-gNd" secondAttribute="bottom" constant="7.5" id="EED-mK-Wxb"/>
+                            <constraint firstItem="cfW-dO-gNd" firstAttribute="leading" secondItem="BY3-wG-pxZ" secondAttribute="leading" constant="32" id="Gid-BC-aUV"/>
+                            <constraint firstItem="7aM-QC-Iph" firstAttribute="height" secondItem="1xN-ZE-m8j" secondAttribute="height" multiplier="0.3" id="IkQ-N7-KTb"/>
+                            <constraint firstItem="8Qm-la-P15" firstAttribute="width" secondItem="1xN-ZE-m8j" secondAttribute="width" multiplier="0.85" id="WQk-S3-8Bs"/>
+                            <constraint firstItem="upE-2X-Zud" firstAttribute="centerX" secondItem="BY3-wG-pxZ" secondAttribute="centerX" id="Zt9-Vq-Jcr"/>
+                            <constraint firstItem="1fK-jD-OBb" firstAttribute="top" secondItem="ppQ-zR-EeU" secondAttribute="bottom" constant="7.5" id="aaR-l2-Myz"/>
+                            <constraint firstItem="7aM-QC-Iph" firstAttribute="centerX" secondItem="BY3-wG-pxZ" secondAttribute="centerX" id="bwY-t6-fuT"/>
+                            <constraint firstItem="1fK-jD-OBb" firstAttribute="width" secondItem="1xN-ZE-m8j" secondAttribute="width" multiplier="0.85" id="cI0-1t-jBD"/>
+                            <constraint firstItem="ppQ-zR-EeU" firstAttribute="leading" secondItem="BY3-wG-pxZ" secondAttribute="leading" constant="32" id="eWe-OA-60b"/>
+                            <constraint firstItem="8Qm-la-P15" firstAttribute="top" secondItem="1fK-jD-OBb" secondAttribute="bottom" constant="23" id="enO-zT-7kH"/>
+                            <constraint firstItem="BY3-wG-pxZ" firstAttribute="bottom" secondItem="upE-2X-Zud" secondAttribute="bottom" constant="30" id="gxf-zx-0rn"/>
+                            <constraint firstItem="ppQ-zR-EeU" firstAttribute="width" secondItem="1xN-ZE-m8j" secondAttribute="width" multiplier="0.9" id="l45-Bt-ehX"/>
+                            <constraint firstItem="cfW-dO-gNd" firstAttribute="width" secondItem="1xN-ZE-m8j" secondAttribute="width" multiplier="0.9" id="n1Z-p7-8HQ"/>
+                            <constraint firstItem="7aM-QC-Iph" firstAttribute="width" secondItem="1xN-ZE-m8j" secondAttribute="width" id="nL2-Nf-y9H"/>
+                            <constraint firstItem="upE-2X-Zud" firstAttribute="width" secondItem="1xN-ZE-m8j" secondAttribute="width" multiplier="0.85" id="uGf-9h-AEM"/>
+                            <constraint firstItem="cfW-dO-gNd" firstAttribute="top" secondItem="7aM-QC-Iph" secondAttribute="bottom" constant="24" id="va7-6d-CFJ"/>
+                            <constraint firstItem="8Qm-la-P15" firstAttribute="centerX" secondItem="BY3-wG-pxZ" secondAttribute="centerX" id="xgo-wK-JJw"/>
+                            <constraint firstItem="upE-2X-Zud" firstAttribute="top" secondItem="8Qm-la-P15" secondAttribute="bottom" constant="16" id="yxw-D4-scr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BY3-wG-pxZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="EventImage" destination="7aM-QC-Iph" id="lv8-W8-MFo"/>
+                        <outlet property="contactLbl" destination="eTR-yw-eaM" id="VDG-Wu-xeC"/>
+                        <outlet property="eventDescription" destination="8Qm-la-P15" id="bgn-sb-aVO"/>
+                        <outlet property="registerNowBtn" destination="upE-2X-Zud" id="VDJ-TH-TMj"/>
+                        <outlet property="timeLbl" destination="YAs-ap-DeX" id="06G-mE-jq0"/>
+                        <outlet property="titleLabel" destination="cfW-dO-gNd" id="fem-yz-fhl"/>
+                        <outlet property="venueLbl" destination="aTP-Cr-xSk" id="syo-rI-neL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x6g-DS-95Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6453.6000000000004" y="114.69265367316342"/>
+        </scene>
         <!--Day4 View Controller-->
         <scene sceneID="fEM-I0-We7">
             <objects>
@@ -132,7 +241,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3WF-Rf-uzG">
-                                                    <rect key="frame" x="19" y="15.5" width="337.5" height="122.5"/>
+                                                    <rect key="frame" x="20.5" y="15.5" width="373" height="122.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World 2.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKc-V1-lDC">
                                                             <rect key="frame" x="15" y="12" width="144" height="20.5"/>
@@ -165,19 +274,19 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11am - 5pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9b2-MX-EtN">
-                                                            <rect key="frame" x="44" y="42.5" width="270" height="14"/>
+                                                            <rect key="frame" x="44" y="42.5" width="298.5" height="14"/>
                                                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(+91) 766-055-1234 (Aakash Verma)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zps-c1-KlL">
-                                                            <rect key="frame" x="44" y="90.5" width="270" height="14"/>
+                                                            <rect key="frame" x="44" y="90.5" width="298.5" height="14"/>
                                                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kamraj Auditorium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B17-fo-cAd">
-                                                            <rect key="frame" x="44" y="66.5" width="270" height="14"/>
+                                                            <rect key="frame" x="44" y="66.5" width="298.5" height="14"/>
                                                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -242,6 +351,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="AXK-9p-9ny" id="BgX-6W-lia"/>
+                        <segue destination="opW-PT-aLq" kind="show" identifier="eventDescription" id="Seb-81-1Yt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hlz-Oa-gJY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -552,6 +662,8 @@
         <image name="clock" width="14" height="14"/>
         <image name="gradient" width="360" height="695.5"/>
         <image name="gradient_button" width="271" height="51"/>
+        <image name="helloWorldImage" width="360" height="240"/>
+        <image name="register_now_btn" width="291" height="51"/>
         <image name="riviera_login" width="182" height="59"/>
         <image name="venue" width="16" height="11"/>
     </resources>

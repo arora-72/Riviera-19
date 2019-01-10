@@ -9,11 +9,49 @@
 import UIKit
 
 class EventDescriptionViewController: UIViewController {
-
+    
+    //MARK:- Outlets
+    @IBOutlet weak var EventImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var contactLbl: UILabel!
+    @IBOutlet weak var venueLbl: UILabel!
+    @IBOutlet weak var timeLbl: UILabel!
+    @IBOutlet weak var eventDescription: UITextView!
+    @IBOutlet weak var registerNowBtn: UIButton!
+    
+    
+    //variables
+    var eventImageString: String!
+    var titleString: String!
+    var timeString: String!
+    var venueString: String!
+    var contactString: String!
+    var descriptionString: String!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       
         // Do any additional setup after loading the view.
+        setUpDisplay()
+        
+        
+    }
+    
+    
+    func setUpDisplay(){
+        
+       // self.EventImage.image = UIImage.init(named: eventImageString)
+        self.titleLabel.text = titleString
+        self.venueLbl.text = venueString
+        self.contactLbl.text = contactString
+        self.eventDescription.text = descriptionString
+        
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
 
@@ -27,4 +65,6 @@ class EventDescriptionViewController: UIViewController {
     }
     */
 
+
+  
 }

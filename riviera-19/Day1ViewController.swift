@@ -12,6 +12,14 @@ import XLPagerTabStrip
 class Day1ViewController: UIViewController, IndicatorInfoProvider, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    
+    
+    let clock = "5am - 11 pm"
+    let venue = "mubarak"
+    let details = "8290642601 - Indresh Arora"
+    let title1 = "Hello World 2.0"
+    let description1 = "hadouken @ master"
+    
   
     
     
@@ -47,6 +55,7 @@ class Day1ViewController: UIViewController, IndicatorInfoProvider, UITableViewDe
         cell.cellBackgroundView.layer.cornerRadius = 15.0
         
         cell.accessoryType = .none
+        cell.selectionStyle = .none
         
         cell.clockImage.image = UIImage.init(named: "clock")
         cell.venueImage.image = UIImage.init(named: "venue")
@@ -64,6 +73,31 @@ class Day1ViewController: UIViewController, IndicatorInfoProvider, UITableViewDe
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 154
+    }
+    
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "eventDescription", sender: self)
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        self.tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier=="eventDescription") {
+            
+            
+            let controller = segue.destination as! EventDescriptionViewController
+            controller.titleString = title1
+            controller.timeString = clock
+            controller.descriptionString = description1
+            controller.contactString = details
+            controller.venueString = venue
+        }
     }
     
 /*
