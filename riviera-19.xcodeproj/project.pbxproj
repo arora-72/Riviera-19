@@ -14,6 +14,18 @@
 		1CF0F93B21E3577600B5FE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF0F93921E3577600B5FE31 /* LaunchScreen.storyboard */; };
 		1CF0F94621E3577700B5FE31 /* riviera_19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F94521E3577700B5FE31 /* riviera_19Tests.swift */; };
 		1CF0F95121E3577700B5FE31 /* riviera_19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F95021E3577700B5FE31 /* riviera_19UITests.swift */; };
+		1CF0F96121E3D4ED00B5FE31 /* Day1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96021E3D4ED00B5FE31 /* Day1ViewController.swift */; };
+		1CF0F96321E3D4FF00B5FE31 /* Day2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96221E3D4FF00B5FE31 /* Day2ViewController.swift */; };
+		1CF0F96521E4C86200B5FE31 /* EventPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96421E4C86200B5FE31 /* EventPageVC.swift */; };
+		1CF0F96721E4C8BB00B5FE31 /* Day3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96621E4C8BB00B5FE31 /* Day3ViewController.swift */; };
+		1CF0F96921E4C8C100B5FE31 /* Day4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96821E4C8C100B5FE31 /* Day4ViewController.swift */; };
+		1CF854D921E73B79006CB476 /* EventsPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854D821E73B79006CB476 /* EventsPageTableViewCell.swift */; };
+		1CF854DB21E7C7D1006CB476 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */; };
+		1CF854DD21E7DDC4006CB476 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */; };
+		1CF854DF21E7F752006CB476 /* EventDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */; };
+		54F4211E6F582AF4D5D2B7EB /* Pods_riviera_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1297D7E5337F8AAC6C6E37D /* Pods_riviera_19.framework */; };
+		7ED6AE453C66083A0DE8ACF6 /* Pods_riviera_19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512EFDF9B7DF6EF5E9CFA6C /* Pods_riviera_19UITests.framework */; };
+		B4963129291C27C69D3E9F63 /* Pods_riviera_19Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408F69D21551FAAC27CB0394 /* Pods_riviera_19Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0512EFDF9B7DF6EF5E9CFA6C /* Pods_riviera_19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riviera_19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF0F92D21E3577300B5FE31 /* riviera-19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "riviera-19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF0F93021E3577300B5FE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF0F93221E3577300B5FE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,23 @@
 		1CF0F94C21E3577700B5FE31 /* riviera-19UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "riviera-19UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF0F95021E3577700B5FE31 /* riviera_19UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riviera_19UITests.swift; sourceTree = "<group>"; };
 		1CF0F95221E3577700B5FE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF0F96021E3D4ED00B5FE31 /* Day1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1ViewController.swift; sourceTree = "<group>"; };
+		1CF0F96221E3D4FF00B5FE31 /* Day2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2ViewController.swift; sourceTree = "<group>"; };
+		1CF0F96421E4C86200B5FE31 /* EventPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventPageVC.swift; path = ../EventPageVC.swift; sourceTree = "<group>"; };
+		1CF0F96621E4C8BB00B5FE31 /* Day3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3ViewController.swift; sourceTree = "<group>"; };
+		1CF0F96821E4C8C100B5FE31 /* Day4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4ViewController.swift; sourceTree = "<group>"; };
+		1CF854D821E73B79006CB476 /* EventsPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsPageTableViewCell.swift; sourceTree = "<group>"; };
+		1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventDescriptionViewController.swift; path = Assets.xcassets/EventDescriptionViewController.swift; sourceTree = "<group>"; };
+		27F2DBD5C470F0E5983DD8F4 /* Pods-riviera-19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19Tests.debug.xcconfig"; path = "Target Support Files/Pods-riviera-19Tests/Pods-riviera-19Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		329DF610CDF85B6C9C8B1E78 /* Pods-riviera-19UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19UITests.release.xcconfig"; path = "Target Support Files/Pods-riviera-19UITests/Pods-riviera-19UITests.release.xcconfig"; sourceTree = "<group>"; };
+		40160F95FFAB9034D64AF20D /* Pods-riviera-19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19.debug.xcconfig"; path = "Target Support Files/Pods-riviera-19/Pods-riviera-19.debug.xcconfig"; sourceTree = "<group>"; };
+		408F69D21551FAAC27CB0394 /* Pods_riviera_19Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riviera_19Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		555FB48C74DD70059847DE8B /* Pods-riviera-19UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19UITests.debug.xcconfig"; path = "Target Support Files/Pods-riviera-19UITests/Pods-riviera-19UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E1DDBD388D049F53A45A0AD /* Pods-riviera-19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19Tests.release.xcconfig"; path = "Target Support Files/Pods-riviera-19Tests/Pods-riviera-19Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE115272E9438DD8CB092F86 /* Pods-riviera-19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19.release.xcconfig"; path = "Target Support Files/Pods-riviera-19/Pods-riviera-19.release.xcconfig"; sourceTree = "<group>"; };
+		E1297D7E5337F8AAC6C6E37D /* Pods_riviera_19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riviera_19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F4211E6F582AF4D5D2B7EB /* Pods_riviera_19.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4963129291C27C69D3E9F63 /* Pods_riviera_19Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED6AE453C66083A0DE8ACF6 /* Pods_riviera_19UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				1CF0F94421E3577700B5FE31 /* riviera-19Tests */,
 				1CF0F94F21E3577700B5FE31 /* riviera-19UITests */,
 				1CF0F92E21E3577300B5FE31 /* Products */,
+				7EFD6FA5B53D149D23E2ED59 /* Pods */,
+				999FA7AEA7422E5242EA009B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,9 +133,18 @@
 			isa = PBXGroup;
 			children = (
 				1CF0F93021E3577300B5FE31 /* AppDelegate.swift */,
+				1CF0F96421E4C86200B5FE31 /* EventPageVC.swift */,
 				1CF0F93221E3577300B5FE31 /* ViewController.swift */,
 				1CF0F93421E3577300B5FE31 /* Main.storyboard */,
+				1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */,
+				1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */,
+				1CF854D821E73B79006CB476 /* EventsPageTableViewCell.swift */,
+				1CF0F96821E4C8C100B5FE31 /* Day4ViewController.swift */,
+				1CF0F96621E4C8BB00B5FE31 /* Day3ViewController.swift */,
+				1CF0F96221E3D4FF00B5FE31 /* Day2ViewController.swift */,
+				1CF0F96021E3D4ED00B5FE31 /* Day1ViewController.swift */,
 				1CF0F93721E3577600B5FE31 /* Assets.xcassets */,
+				1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */,
 				1CF0F93921E3577600B5FE31 /* LaunchScreen.storyboard */,
 				1CF0F93C21E3577600B5FE31 /* Info.plist */,
 			);
@@ -125,6 +169,29 @@
 			path = "riviera-19UITests";
 			sourceTree = "<group>";
 		};
+		7EFD6FA5B53D149D23E2ED59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40160F95FFAB9034D64AF20D /* Pods-riviera-19.debug.xcconfig */,
+				DE115272E9438DD8CB092F86 /* Pods-riviera-19.release.xcconfig */,
+				27F2DBD5C470F0E5983DD8F4 /* Pods-riviera-19Tests.debug.xcconfig */,
+				5E1DDBD388D049F53A45A0AD /* Pods-riviera-19Tests.release.xcconfig */,
+				555FB48C74DD70059847DE8B /* Pods-riviera-19UITests.debug.xcconfig */,
+				329DF610CDF85B6C9C8B1E78 /* Pods-riviera-19UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		999FA7AEA7422E5242EA009B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1297D7E5337F8AAC6C6E37D /* Pods_riviera_19.framework */,
+				408F69D21551FAAC27CB0394 /* Pods_riviera_19Tests.framework */,
+				0512EFDF9B7DF6EF5E9CFA6C /* Pods_riviera_19UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CF0F95521E3577700B5FE31 /* Build configuration list for PBXNativeTarget "riviera-19" */;
 			buildPhases = (
+				8F3715CC6E3572274DA42DBB /* [CP] Check Pods Manifest.lock */,
 				1CF0F92921E3577300B5FE31 /* Sources */,
 				1CF0F92A21E3577300B5FE31 /* Frameworks */,
 				1CF0F92B21E3577300B5FE31 /* Resources */,
+				2503FD22F5B920BA4C0CAF55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CF0F95821E3577700B5FE31 /* Build configuration list for PBXNativeTarget "riviera-19Tests" */;
 			buildPhases = (
+				F85E98B7C50FAAE027672BA9 /* [CP] Check Pods Manifest.lock */,
 				1CF0F93D21E3577700B5FE31 /* Sources */,
 				1CF0F93E21E3577700B5FE31 /* Frameworks */,
 				1CF0F93F21E3577700B5FE31 /* Resources */,
@@ -167,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CF0F95B21E3577700B5FE31 /* Build configuration list for PBXNativeTarget "riviera-19UITests" */;
 			buildPhases = (
+				76399061ECF5B5A607A0A8B5 /* [CP] Check Pods Manifest.lock */,
 				1CF0F94821E3577700B5FE31 /* Sources */,
 				1CF0F94921E3577700B5FE31 /* Frameworks */,
 				1CF0F94A21E3577700B5FE31 /* Resources */,
@@ -251,13 +322,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2503FD22F5B920BA4C0CAF55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-riviera-19/Pods-riviera-19-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SWSegmentedControl/SWSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-riviera-19/Pods-riviera-19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76399061ECF5B5A607A0A8B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-riviera-19UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3715CC6E3572274DA42DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-riviera-19-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85E98B7C50FAAE027672BA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-riviera-19Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CF0F92921E3577300B5FE31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF854DD21E7DDC4006CB476 /* signUpViewController.swift in Sources */,
+				1CF854DB21E7C7D1006CB476 /* LoginViewController.swift in Sources */,
 				1CF0F93321E3577300B5FE31 /* ViewController.swift in Sources */,
+				1CF854DF21E7F752006CB476 /* EventDescriptionViewController.swift in Sources */,
+				1CF0F96921E4C8C100B5FE31 /* Day4ViewController.swift in Sources */,
+				1CF0F96521E4C86200B5FE31 /* EventPageVC.swift in Sources */,
+				1CF0F96121E3D4ED00B5FE31 /* Day1ViewController.swift in Sources */,
+				1CF0F96321E3D4FF00B5FE31 /* Day2ViewController.swift in Sources */,
+				1CF854D921E73B79006CB476 /* EventsPageTableViewCell.swift in Sources */,
 				1CF0F93121E3577300B5FE31 /* AppDelegate.swift in Sources */,
+				1CF0F96721E4C8BB00B5FE31 /* Day3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +607,13 @@
 		};
 		1CF0F95621E3577700B5FE31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40160F95FFAB9034D64AF20D /* Pods-riviera-19.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "riviera-19/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +627,13 @@
 		};
 		1CF0F95721E3577700B5FE31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE115272E9438DD8CB092F86 /* Pods-riviera-19.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22MQY5GLD5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "riviera-19/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +647,7 @@
 		};
 		1CF0F95921E3577700B5FE31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F2DBD5C470F0E5983DD8F4 /* Pods-riviera-19Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +669,7 @@
 		};
 		1CF0F95A21E3577700B5FE31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1DDBD388D049F53A45A0AD /* Pods-riviera-19Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +691,7 @@
 		};
 		1CF0F95C21E3577700B5FE31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555FB48C74DD70059847DE8B /* Pods-riviera-19UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +712,7 @@
 		};
 		1CF0F95D21E3577700B5FE31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329DF610CDF85B6C9C8B1E78 /* Pods-riviera-19UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
