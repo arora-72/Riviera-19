@@ -23,6 +23,8 @@
 		1CF854DB21E7C7D1006CB476 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */; };
 		1CF854DD21E7DDC4006CB476 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */; };
 		1CF854DF21E7F752006CB476 /* EventDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */; };
+		1CF854E121E807F1006CB476 /* proShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854E021E807F1006CB476 /* proShowsViewController.swift */; };
+		1CF854E321E80C61006CB476 /* proShowsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854E221E80C61006CB476 /* proShowsCollectionViewCell.swift */; };
 		54F4211E6F582AF4D5D2B7EB /* Pods_riviera_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1297D7E5337F8AAC6C6E37D /* Pods_riviera_19.framework */; };
 		7ED6AE453C66083A0DE8ACF6 /* Pods_riviera_19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512EFDF9B7DF6EF5E9CFA6C /* Pods_riviera_19UITests.framework */; };
 		B4963129291C27C69D3E9F63 /* Pods_riviera_19Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408F69D21551FAAC27CB0394 /* Pods_riviera_19Tests.framework */; };
@@ -69,6 +71,8 @@
 		1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventDescriptionViewController.swift; path = Assets.xcassets/EventDescriptionViewController.swift; sourceTree = "<group>"; };
+		1CF854E021E807F1006CB476 /* proShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proShowsViewController.swift; sourceTree = "<group>"; };
+		1CF854E221E80C61006CB476 /* proShowsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proShowsCollectionViewCell.swift; sourceTree = "<group>"; };
 		27F2DBD5C470F0E5983DD8F4 /* Pods-riviera-19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19Tests.debug.xcconfig"; path = "Target Support Files/Pods-riviera-19Tests/Pods-riviera-19Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		329DF610CDF85B6C9C8B1E78 /* Pods-riviera-19UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19UITests.release.xcconfig"; path = "Target Support Files/Pods-riviera-19UITests/Pods-riviera-19UITests.release.xcconfig"; sourceTree = "<group>"; };
 		40160F95FFAB9034D64AF20D /* Pods-riviera-19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19.debug.xcconfig"; path = "Target Support Files/Pods-riviera-19/Pods-riviera-19.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				1CF0F96421E4C86200B5FE31 /* EventPageVC.swift */,
 				1CF0F93221E3577300B5FE31 /* ViewController.swift */,
 				1CF0F93421E3577300B5FE31 /* Main.storyboard */,
+				1CF854E021E807F1006CB476 /* proShowsViewController.swift */,
+				1CF854E221E80C61006CB476 /* proShowsCollectionViewCell.swift */,
 				1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */,
 				1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */,
 				1CF854D821E73B79006CB476 /* EventsPageTableViewCell.swift */,
@@ -426,6 +432,7 @@
 			files = (
 				1CF854DD21E7DDC4006CB476 /* signUpViewController.swift in Sources */,
 				1CF854DB21E7C7D1006CB476 /* LoginViewController.swift in Sources */,
+				1CF854E321E80C61006CB476 /* proShowsCollectionViewCell.swift in Sources */,
 				1CF0F93321E3577300B5FE31 /* ViewController.swift in Sources */,
 				1CF854DF21E7F752006CB476 /* EventDescriptionViewController.swift in Sources */,
 				1CF0F96921E4C8C100B5FE31 /* Day4ViewController.swift in Sources */,
@@ -435,6 +442,7 @@
 				1CF854D921E73B79006CB476 /* EventsPageTableViewCell.swift in Sources */,
 				1CF0F93121E3577300B5FE31 /* AppDelegate.swift in Sources */,
 				1CF0F96721E4C8BB00B5FE31 /* Day3ViewController.swift in Sources */,
+				1CF854E121E807F1006CB476 /* proShowsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
