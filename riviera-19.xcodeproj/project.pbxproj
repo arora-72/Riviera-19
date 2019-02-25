@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5E7E8F2208FC1A00BEC07B /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E7E8E2208FC1A00BEC07B /* tabBarViewController.swift */; };
 		1CF0F93121E3577300B5FE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F93021E3577300B5FE31 /* AppDelegate.swift */; };
 		1CF0F93321E3577300B5FE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F93221E3577300B5FE31 /* ViewController.swift */; };
 		1CF0F93621E3577300B5FE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF0F93421E3577300B5FE31 /* Main.storyboard */; };
-		1CF0F93821E3577600B5FE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF0F93721E3577600B5FE31 /* Assets.xcassets */; };
 		1CF0F93B21E3577600B5FE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF0F93921E3577600B5FE31 /* LaunchScreen.storyboard */; };
 		1CF0F94621E3577700B5FE31 /* riviera_19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F94521E3577700B5FE31 /* riviera_19Tests.swift */; };
 		1CF0F95121E3577700B5FE31 /* riviera_19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F95021E3577700B5FE31 /* riviera_19UITests.swift */; };
@@ -19,12 +19,21 @@
 		1CF0F96521E4C86200B5FE31 /* EventPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96421E4C86200B5FE31 /* EventPageVC.swift */; };
 		1CF0F96721E4C8BB00B5FE31 /* Day3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96621E4C8BB00B5FE31 /* Day3ViewController.swift */; };
 		1CF0F96921E4C8C100B5FE31 /* Day4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F96821E4C8C100B5FE31 /* Day4ViewController.swift */; };
+		1CF58538220C5B8C008BDB26 /* CategoriesVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF58537220C5B8C008BDB26 /* CategoriesVCViewController.swift */; };
 		1CF854D921E73B79006CB476 /* EventsPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854D821E73B79006CB476 /* EventsPageTableViewCell.swift */; };
 		1CF854DB21E7C7D1006CB476 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */; };
 		1CF854DD21E7DDC4006CB476 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */; };
 		1CF854DF21E7F752006CB476 /* EventDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */; };
 		1CF854E121E807F1006CB476 /* proShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854E021E807F1006CB476 /* proShowsViewController.swift */; };
 		1CF854E321E80C61006CB476 /* proShowsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854E221E80C61006CB476 /* proShowsCollectionViewCell.swift */; };
+		1CF854E521E88D45006CB476 /* proShowsDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF854E421E88D45006CB476 /* proShowsDescriptionViewController.swift */; };
+		1CFB7D76220425CA00742274 /* popUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB7D75220425CA00742274 /* popUpViewController.swift */; };
+		1CFB7D782204789600742274 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB7D772204789600742274 /* Class.swift */; };
+		1CFB7D7A2204ACFB00742274 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB7D792204ACFB00742274 /* aboutViewController.swift */; };
+		1CFB7D7C2204AED000742274 /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB7D7B2204AED000742274 /* FaqViewController.swift */; };
+		1CFB7D7E220592EA00742274 /* faqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB7D7D220592EA00742274 /* faqTableViewCell.swift */; };
+		1CFB7D82220596C100742274 /* contactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB7D81220596C100742274 /* contactUsViewController.swift */; };
+		1CFB7D8422059C5B00742274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFB7D8322059C5900742274 /* Assets.xcassets */; };
 		54F4211E6F582AF4D5D2B7EB /* Pods_riviera_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1297D7E5337F8AAC6C6E37D /* Pods_riviera_19.framework */; };
 		7ED6AE453C66083A0DE8ACF6 /* Pods_riviera_19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512EFDF9B7DF6EF5E9CFA6C /* Pods_riviera_19UITests.framework */; };
 		B4963129291C27C69D3E9F63 /* Pods_riviera_19Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408F69D21551FAAC27CB0394 /* Pods_riviera_19Tests.framework */; };
@@ -49,11 +58,11 @@
 
 /* Begin PBXFileReference section */
 		0512EFDF9B7DF6EF5E9CFA6C /* Pods_riviera_19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riviera_19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5E7E8E2208FC1A00BEC07B /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
 		1CF0F92D21E3577300B5FE31 /* riviera-19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "riviera-19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF0F93021E3577300B5FE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF0F93221E3577300B5FE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CF0F93521E3577300B5FE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1CF0F93721E3577600B5FE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF0F93A21E3577600B5FE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CF0F93C21E3577600B5FE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CF0F94121E3577700B5FE31 /* riviera-19Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "riviera-19Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,12 +76,21 @@
 		1CF0F96421E4C86200B5FE31 /* EventPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventPageVC.swift; path = ../EventPageVC.swift; sourceTree = "<group>"; };
 		1CF0F96621E4C8BB00B5FE31 /* Day3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3ViewController.swift; sourceTree = "<group>"; };
 		1CF0F96821E4C8C100B5FE31 /* Day4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4ViewController.swift; sourceTree = "<group>"; };
+		1CF58537220C5B8C008BDB26 /* CategoriesVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVCViewController.swift; sourceTree = "<group>"; };
 		1CF854D821E73B79006CB476 /* EventsPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsPageTableViewCell.swift; sourceTree = "<group>"; };
 		1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		1CF854DE21E7F752006CB476 /* EventDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventDescriptionViewController.swift; path = Assets.xcassets/EventDescriptionViewController.swift; sourceTree = "<group>"; };
 		1CF854E021E807F1006CB476 /* proShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proShowsViewController.swift; sourceTree = "<group>"; };
 		1CF854E221E80C61006CB476 /* proShowsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proShowsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CF854E421E88D45006CB476 /* proShowsDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proShowsDescriptionViewController.swift; sourceTree = "<group>"; };
+		1CFB7D75220425CA00742274 /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
+		1CFB7D772204789600742274 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		1CFB7D792204ACFB00742274 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		1CFB7D7B2204AED000742274 /* FaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
+		1CFB7D7D220592EA00742274 /* faqTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faqTableViewCell.swift; sourceTree = "<group>"; };
+		1CFB7D81220596C100742274 /* contactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactUsViewController.swift; sourceTree = "<group>"; };
+		1CFB7D8322059C5900742274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F2DBD5C470F0E5983DD8F4 /* Pods-riviera-19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19Tests.debug.xcconfig"; path = "Target Support Files/Pods-riviera-19Tests/Pods-riviera-19Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		329DF610CDF85B6C9C8B1E78 /* Pods-riviera-19UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19UITests.release.xcconfig"; path = "Target Support Files/Pods-riviera-19UITests/Pods-riviera-19UITests.release.xcconfig"; sourceTree = "<group>"; };
 		40160F95FFAB9034D64AF20D /* Pods-riviera-19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riviera-19.debug.xcconfig"; path = "Target Support Files/Pods-riviera-19/Pods-riviera-19.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,10 +154,18 @@
 		1CF0F92F21E3577300B5FE31 /* riviera-19 */ = {
 			isa = PBXGroup;
 			children = (
+				1C5E7E8E2208FC1A00BEC07B /* tabBarViewController.swift */,
 				1CF0F93021E3577300B5FE31 /* AppDelegate.swift */,
 				1CF0F96421E4C86200B5FE31 /* EventPageVC.swift */,
+				1CFB7D81220596C100742274 /* contactUsViewController.swift */,
 				1CF0F93221E3577300B5FE31 /* ViewController.swift */,
 				1CF0F93421E3577300B5FE31 /* Main.storyboard */,
+				1CF58537220C5B8C008BDB26 /* CategoriesVCViewController.swift */,
+				1CFB7D7B2204AED000742274 /* FaqViewController.swift */,
+				1CFB7D7D220592EA00742274 /* faqTableViewCell.swift */,
+				1CFB7D792204ACFB00742274 /* aboutViewController.swift */,
+				1CFB7D75220425CA00742274 /* popUpViewController.swift */,
+				1CF854E421E88D45006CB476 /* proShowsDescriptionViewController.swift */,
 				1CF854E021E807F1006CB476 /* proShowsViewController.swift */,
 				1CF854E221E80C61006CB476 /* proShowsCollectionViewCell.swift */,
 				1CF854DC21E7DDC4006CB476 /* signUpViewController.swift */,
@@ -149,10 +175,11 @@
 				1CF0F96621E4C8BB00B5FE31 /* Day3ViewController.swift */,
 				1CF0F96221E3D4FF00B5FE31 /* Day2ViewController.swift */,
 				1CF0F96021E3D4ED00B5FE31 /* Day1ViewController.swift */,
-				1CF0F93721E3577600B5FE31 /* Assets.xcassets */,
+				1CFB7D772204789600742274 /* Class.swift */,
 				1CF854DA21E7C7D1006CB476 /* LoginViewController.swift */,
 				1CF0F93921E3577600B5FE31 /* LaunchScreen.storyboard */,
 				1CF0F93C21E3577600B5FE31 /* Info.plist */,
+				1CFB7D8322059C5900742274 /* Assets.xcassets */,
 			);
 			path = "riviera-19";
 			sourceTree = "<group>";
@@ -307,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF0F93B21E3577600B5FE31 /* LaunchScreen.storyboard in Resources */,
-				1CF0F93821E3577600B5FE31 /* Assets.xcassets in Resources */,
+				1CFB7D8422059C5B00742274 /* Assets.xcassets in Resources */,
 				1CF0F93621E3577300B5FE31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,8 +367,9 @@
 				"${PODS_ROOT}/Target Support Files/Pods-riviera-19/Pods-riviera-19-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SWSegmentedControl/SWSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -349,8 +377,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -430,19 +459,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF854E521E88D45006CB476 /* proShowsDescriptionViewController.swift in Sources */,
 				1CF854DD21E7DDC4006CB476 /* signUpViewController.swift in Sources */,
+				1CF58538220C5B8C008BDB26 /* CategoriesVCViewController.swift in Sources */,
 				1CF854DB21E7C7D1006CB476 /* LoginViewController.swift in Sources */,
+				1CFB7D82220596C100742274 /* contactUsViewController.swift in Sources */,
 				1CF854E321E80C61006CB476 /* proShowsCollectionViewCell.swift in Sources */,
 				1CF0F93321E3577300B5FE31 /* ViewController.swift in Sources */,
+				1CFB7D7C2204AED000742274 /* FaqViewController.swift in Sources */,
 				1CF854DF21E7F752006CB476 /* EventDescriptionViewController.swift in Sources */,
+				1CFB7D76220425CA00742274 /* popUpViewController.swift in Sources */,
 				1CF0F96921E4C8C100B5FE31 /* Day4ViewController.swift in Sources */,
 				1CF0F96521E4C86200B5FE31 /* EventPageVC.swift in Sources */,
 				1CF0F96121E3D4ED00B5FE31 /* Day1ViewController.swift in Sources */,
 				1CF0F96321E3D4FF00B5FE31 /* Day2ViewController.swift in Sources */,
 				1CF854D921E73B79006CB476 /* EventsPageTableViewCell.swift in Sources */,
+				1CFB7D7E220592EA00742274 /* faqTableViewCell.swift in Sources */,
+				1CFB7D782204789600742274 /* Class.swift in Sources */,
 				1CF0F93121E3577300B5FE31 /* AppDelegate.swift in Sources */,
 				1CF0F96721E4C8BB00B5FE31 /* Day3ViewController.swift in Sources */,
 				1CF854E121E807F1006CB476 /* proShowsViewController.swift in Sources */,
+				1CFB7D7A2204ACFB00742274 /* aboutViewController.swift in Sources */,
+				1C5E7E8F2208FC1A00BEC07B /* tabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,8 +656,9 @@
 			baseConfigurationReference = 40160F95FFAB9034D64AF20D /* Pods-riviera-19.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Parijat Chakraborty (Z4DRU847UU)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YDLLYF6HX8;
 				INFOPLIST_FILE = "riviera-19/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -628,8 +667,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arrow.riv19.riviera-19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Riviera19_dev;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -638,8 +678,9 @@
 			baseConfigurationReference = DE115272E9438DD8CB092F86 /* Pods-riviera-19.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Parijat Chakraborty (YDLLYF6HX8)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YDLLYF6HX8;
 				INFOPLIST_FILE = "riviera-19/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -648,8 +689,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arrow.riv19.riviera-19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Riviera19_distribution;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

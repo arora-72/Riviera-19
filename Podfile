@@ -11,6 +11,7 @@ pod 'Alamofire'
 pod 'SwiftyJSON', '~> 4.0'
 pod 'IQKeyboardManagerSwift'
 pod 'XLPagerTabStrip', '~> 8.1'
+pod 'Toast-Swift', '~> 4.0.0'
   target 'riviera-19Tests' do
     inherit! :search_paths
     # Pods for testing

@@ -10,12 +10,18 @@ import UIKit
 
 class proShowsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
-    var comboData = ["COMBO-1","COMBO-1","COMBO-1"]
-    var globalImage = ["helloWorldImage","helloWorldImage","helloWorldImage"]
-    var descriptionData:[String] = ["Pro shows = 1 + 4 \n + \n kakashi","Pro shows = 1 + 4","Pro shows = 1 + 4"]
-    var costData: [String] = ["Rs - 30000","Rs - 30000","Rs - 30000"]
+    @IBOutlet weak var rivieraButtn: UIImageView!
+    @IBOutlet weak var gradientView: UIView!
     
     
+    var comboData = ["COMBO-1","COMBO-2","COMBO-3","COMBO-4","COMBO-5","COMBO-6"]
+    var globalImage = ["helloWorldImage","helloWorldImage","helloWorldImage","helloWorldImage","helloWorldImage","helloWorldImage"]
+    var descriptionData:[String] = ["Pro shows \n D1+D2+D3+D4 \n D - Day"," Pro Shows \n D1+D2+D3 \n D - Day","Merchandise Combo \n RN+CN+H \n RN - round neck tshirt, CN - Collared tshirt, h - hoodie","Merchandise Combo \n RN+CN \n RN - round neck tshirt, CN - Collared tshirt, h - hoodie", "Merchandise Combo \n RN+H \n RN - round neck tshirt, CN - Collared tshirt, h - hoodie", "Merchandise Combo \n CN+H \n RN - round neck tshirt, CN - Collared tshirt, h - hoodie"]
+    var costData: [String] = ["Rs - 1250","Rs - 1100","Rs - 800","Rs - 400","Rs - 550", "Rs - 650"]
+    
+    
+    var globalIndex: Int!
+    var selectedIndexPath: IndexPath?
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -27,8 +33,26 @@ class proShowsViewController: UIViewController, UICollectionViewDelegate, UIColl
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
+        setGradientBackground()
         
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detailCollectionSegue" {
         
+//           let indexPath = collectionView.indexPathsForSelectedItems
+//            print(indexPath)
+//            let controller = segue.destination as! proShowsDescriptionViewController
+//
+//            controller.comboString = comboData[globalIndex]
+//            controller.descriptionString = descriptionData[globalIndex]
+//            controller.costString = costData[globalIndex]
+////            controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+////            controller.navigationItem.leftItemsSupplementBackButton = true
+//
+          
+        }
     }
     
 
@@ -68,6 +92,35 @@ class proShowsViewController: UIViewController, UICollectionViewDelegate, UIColl
         return cell
     }
     
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        collectionView.allowsMultipleSelection = false
+        
+        print(indexPath.row)
+        print("didselect clicked")
+        
+        globalIndex = indexPath.row
+        print(globalIndex)
+        
+   
+        
+        
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "proShowsDescriptionViewController") as! proShowsDescriptionViewController
+        
+        vc.largeImage = globalImage[indexPath.row]
+        vc.comboString = comboData[indexPath.row]
+        vc.costString = costData[indexPath.row]
+        vc.descriptionString = descriptionData[indexPath.row]
+        print(vc.descriptionString)
+        
+       present(vc, animated: true, completion: nil)
+        
+        
+    }
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: self.collectionView.frame.width, height: self.collectionView.frame.height)
     }
@@ -85,6 +138,10 @@ class proShowsViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     
     
+    //status bar
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     
     
@@ -101,4 +158,22 @@ class proShowsViewController: UIViewController, UICollectionViewDelegate, UIColl
 //        cell?.backgroundColor = UIColor.cyan
 //    }
 
+    
+    func setGradientBackground() {
+        let colorTop =  UIColor(red:0.84, green:0.13, blue:0.54, alpha:1.0).cgColor
+        let colorBottom = UIColor(red:0.99, green:0.48, blue:0.52, alpha:1.0).cgColor
+        
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorTop, colorBottom]
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.frame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 100)
+        
+        self.gradientView.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
+    
+    
+    
+    
 }

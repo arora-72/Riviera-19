@@ -34,7 +34,9 @@ class EventDescriptionViewController: UIViewController {
         super.viewDidLoad()
        
         // Do any additional setup after loading the view.
+        print(titleString)
         setUpDisplay()
+        
         
         
     }
@@ -47,6 +49,7 @@ class EventDescriptionViewController: UIViewController {
         self.venueLbl.text = venueString
         self.contactLbl.text = contactString
         self.eventDescription.text = descriptionString
+        self.timeLbl.text = timeString
         
     }
     
@@ -66,5 +69,8 @@ class EventDescriptionViewController: UIViewController {
     */
 
 
-  
+    @IBAction func registerAction(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://vtop11.vit.ac.in/riviera/")!)        
+    }
+    
 }

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:EventPageVC.swift">
-   </FileRef>
-   <FileRef
       location = "group:riviera-19.xcodeproj">
    </FileRef>
    <FileRef
